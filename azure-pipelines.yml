@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: 'c40cd67d-0120-46f8-b271-36b5b73af1d7'
   imageRepository: 'prodevopscloudspipelinesjavascriptdocker'
   containerRegistry: 'csbm6b8.azurecr.io'
-  dockerfilePath: 'Dockerfile'
+  dockerfilePath: 'app/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
